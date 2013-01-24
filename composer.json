@@ -1,7 +1,8 @@
 {
   "name": "nasneg/hello-world",
   "require": {
-    "monolog/monolog": "1.0.*"
+    "monolog/monolog": "1.0.*",
+    "symfony/symfony": "2.*"
   },
   "autoload": {
     "psr-0": {
