@@ -14,7 +14,7 @@ class HelloWorld
         $this->log->pushHandler(new StreamHandler($path, Logger::INFO));
     }
 
-    public function hello($name = 'World!')
+    public function hello($name = 'World')
     {
         $this->log->addInfo('Hello '.$name);
     }
